@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Seguros TK-U</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
+
 <body>
-    
+    <section>
+        <div>
+            <h1 class="center-align">Cotizador Seguros TK-U</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="name" type="text" class="validate">
+                            <label for="name">Nombre Completo</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <label for="date">Fecha de nacimiento</label>
+                            <input id="date" type="text" class="datepicker">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input disabled id="ageC" type="text" class="validate">
+                            <label for="ageC">Edad del Conyugue</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input disabled id="CantidadH" type="text" class="validate">
+                            <label for="CantidadH">Cantidad de hijos con menos de 21 años</label>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
